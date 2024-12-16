@@ -97,7 +97,6 @@ st.markdown(
 
 
 # Use Hugging Face model path directly
-#MODEL_NAME = "deep-learning-analytics/GrammarCorrector"
 MODEL_NAME = "owusuevans14/finetuned_T5_model_for_GEC"
 
 # Load the model and tokenizer from Hugging Face Hub

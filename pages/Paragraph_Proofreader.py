@@ -106,6 +106,7 @@ def correct_paragraph(paragraph, model, tokenizer, device):
 st.title("Paragraph / Sentence Proofreader")
 
 # Load the model and tokenizer
+# Use Hugging Face model path directly
 model_name = "owusuevans14/finetuned_T5_model_for_GEC"
 tokenizer, model, device = load_model_and_tokenizer(model_name)
 
