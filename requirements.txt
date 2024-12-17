@@ -3,3 +3,4 @@ PyPDF2==3.0.1
 streamlit==1.40.1
 torch==2.5.1
 transformers==4.46.3
+sentencepiece==0.1.99
